@@ -1,6 +1,6 @@
 {
-  "name": "teamwork-test",
-  "version": "0.1",
+  "name": "gulp-starter-kit",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,16 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "",
+  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaxaKozin/teamwork-html"
+    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
   },
-  "author": "Teamworkers",
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",
-  
+  "bugs": {
+    "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
