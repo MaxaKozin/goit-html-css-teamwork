@@ -1,0 +1,12 @@
+
+Шрифты в двух подключениях
+
+Roboto Slab
+Montserrat
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700&display=swap&subset=cyrillic');
+
+
+font-family: 'Roboto Slab', serif;
+font-family: 'Montserrat', sans-serif;
