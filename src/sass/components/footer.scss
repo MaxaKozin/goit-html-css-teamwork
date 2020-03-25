@@ -1,27 +1,89 @@
 .footer{
   background-color: $color_accent;
-  min-height: 307px;  
+  min-height: 307px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .content{
     width: 350px;
     margin: 0 auto;
-  }
 
-  .social{
-    width: 220px;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 0 auto;
-    padding: 0;
+    .social__container{
 
-    &__link{
-      display: block;
-      border: solid 2px $color_white;
-      border-radius: 50%;
-      width: 31px;
-      height: 31px;
+      &::after{ 
+        display: block;
+        content: "";
+        background-color: $color_white;
+        height: 2px;
+        width: 50px;
+        margin: 28px auto 0px;
+      }
+
+      .social{
+        width: 220px;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+
+
+        &__link{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: solid 2px $color_white;
+          border-radius: 50%;
+          width: 31px;
+          height: 31px;
+          transition: border 200ms linear;
+
+          &:hover{
+            border: none;
+            background-color: $color_white
+          }
+
+          &:hover .icon{
+            fill: $color_accent;
+          }
+
+          .icon{
+            fill: $color_white;
+            height: 16px;
+            transition: fill 200ms linear;
+          }
+
+          .twitter{
+            width: 20px;
+          } 
+
+          .linkedin{
+            width: 16px;
+          } 
+
+          .google{
+            width: 17px;
+          } 
+
+          .facebook{
+            width: 9px;
+          }
+        }
+      }
+    }
+
+    .designed-by{
+      font-family: 'Roboto Slab', serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: $color_white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      padding-top: 60px;
     }
   }
 }
-
