@@ -1,0 +1,19 @@
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $color_grey;
+  margin-bottom: 55px;
+
+  &::after{ 
+    display: block;
+    content: "";
+    background-color: $color_grey;
+    height: 3px;
+    width: 50px;
+    margin: 28px auto 0px;
+  }
+}

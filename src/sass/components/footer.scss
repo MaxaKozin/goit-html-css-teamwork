@@ -1,0 +1,27 @@
+.footer{
+  background-color: $color_accent;
+  min-height: 307px;  
+
+  .content{
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .social{
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+
+    &__link{
+      display: block;
+      border: solid 2px $color_white;
+      border-radius: 50%;
+      width: 31px;
+      height: 31px;
+    }
+  }
+}
+

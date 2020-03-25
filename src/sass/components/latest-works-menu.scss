@@ -1,0 +1,24 @@
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+  max-width: 410px;
+  margin-bottom: 70px;
+
+  &__link{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: $color_grey;
+    transition: color 200ms linear;
+
+  
+
+    &:hover{
+      color: $color_accent;
+    }
+  }
+}

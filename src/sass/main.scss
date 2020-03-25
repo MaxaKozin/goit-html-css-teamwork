@@ -1,6 +1,17 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
+//Basic styles
 @import 'normalize.scss';
 @import 'base.scss';
+
+//Helpers
+@import 'helpers/variables.scss';
+@import 'helpers/placeholders.scss';
+
+
+// Components
+@import 'components/title.scss';
+@import 'components/latest-works-menu.scss';
+@import 'components/latest-works-gallery.scss';
+@import 'components/footer.scss';
