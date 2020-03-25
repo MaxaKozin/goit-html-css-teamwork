@@ -1,3 +1,4 @@
+
 @import 'normalize.scss';
 @import 'helpers/variables.scss';
 @import 'helpers/placeholders.scss';
@@ -14,6 +15,11 @@
 @import 'components/article-block.scss';
 @import 'components/team-list.scss';
 
+//section gallery
+@import 'components/section-title.scss';
+@import 'components/latest-works-menu.scss';
+@import 'components/latest-works-gallery.scss';
+
 // section intouch
 @import 'components/intouch.scss';
 
@@ -29,3 +35,11 @@
 @import 'components/logo-block.scss';
 @import 'components/reviews-block.scss';
 @import 'components/slider-dots.scss';
+
+//section contact us
+@import 'components/section-subtitle.scss';
+@import 'components/contacts.scss';
+@import 'components/inputforms.scss';
+
+//section footer
+@import 'components/footer.scss';

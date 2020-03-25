@@ -1,0 +1,49 @@
+.contact-us-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.contacts__block{
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 65px;
+  padding-left: 27px;
+  position: relative;
+  margin-bottom: 35px;
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+
+
+  .contact-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: $color_grey;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-details{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: $color_grey;
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
