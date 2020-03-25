@@ -5,17 +5,15 @@ html {
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
+
 
 * {
   margin: 0;
   padding: 0;
-}
-
-.container {
-  width: 1140px;
-  margin: 0 auto;
 }
 
 .link {
@@ -27,4 +25,41 @@ html {
   list-style: none;
   margin: 0;
   padding: 0;
+
+body {
+  font-family: 'Roboto Slab', serif;
+  color: $color_grey;
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1170px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-item {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

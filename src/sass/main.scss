@@ -1,5 +1,27 @@
 @import './helpers/variables.scss';
 @import 'normalize.scss';
+@import 'helpers/variables.scss';
+@import 'helpers/placeholders.scss';
 @import 'base.scss';
 
+//section promo
 @import 'components/promo.scss';
+
+//section about
+@import 'components/section-about.scss';
+@import 'components/article-block.scss';
+@import 'components/team-list.scss';
+
+//section blog
+@import 'components/section-blog.scss';
+@import 'components/blog-list.scss';
+@import 'components/blog-card.scss';
+@import 'components/article-blog.scss';
+@import 'components/blog-sub-title.scss';
+
+//section company-logo
+@import 'components/section-company-logo.scss';
+@import 'components/logo-block.scss';
+@import 'components/reviews-block.scss';
+@import 'components/slider-dots.scss';
+
