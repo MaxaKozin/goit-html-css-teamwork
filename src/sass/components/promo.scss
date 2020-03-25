@@ -5,12 +5,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
   @media (min-resolution: 192dpi) {
     background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(../../images/bg_site/bg-top@2x.jpg);
   }
+  
   @media (min-resolution: 288dpi) {
     background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(../../images/bg_site/bg-top@3x.jpg);
   }
+  
   &__slogan {
     display: flex;
     flex-direction: column;
@@ -19,6 +22,7 @@
     min-height: 707px;
     height: auto;
   }
+  
   &__heading {
     font-size: 48px;
     color: $color_white;
@@ -27,6 +31,7 @@
     text-transform: uppercase;
     margin-bottom: 26px;
   }
+  
   &__description {
     font-family: "Roboto Slab";
     font-size: 20px;
@@ -35,6 +40,7 @@
     color: $color_white;
     margin-bottom: 50px;
   }
+  
   &__btn {
     font-size: 16px;
     line-height: 46px;
@@ -46,6 +52,7 @@
     border: 2px solid $color_white;
     border-radius: 2px;
     transition: all .2s linear;
+    
     &:hover {
       color: $color_accent;
       background-color: $color_white;
@@ -69,18 +76,21 @@
   justify-content: space-between;
   align-items: center;
   line-height: 23px;
+  
   &__list {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 540px;
     justify-content: space-between;
   }
+  
   &__link {
     font-size: 14px;
     color: $color_white;
     font-family: 'Montserrat';
     font-weight: 400;
     transition: linear .2s color;
+    
     &:hover {
       color: $color_accent;
     }
