@@ -1,11 +1,11 @@
-/*
- * Все паршалы импортировать в этот файл
- */
-
+@import './helpers/variables.scss';
 @import 'normalize.scss';
 @import 'helpers/variables.scss';
 @import 'helpers/placeholders.scss';
 @import 'base.scss';
+
+//section promo
+@import 'components/promo.scss';
 
 //section about
 @import 'components/section-about.scss';
@@ -24,3 +24,4 @@
 @import 'components/logo-block.scss';
 @import 'components/reviews-block.scss';
 @import 'components/slider-dots.scss';
+
