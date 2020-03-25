@@ -1,0 +1,9 @@
+.blog-sub-title {
+  &__autor {
+    @extend %transition-02s-linear;
+  }
+
+  &__autor-position {
+    @extend %transition-02s-linear;
+  }
+}
