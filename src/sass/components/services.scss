@@ -1,0 +1,66 @@
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 578px;
+
+  &__sub-title {
+    margin-bottom: 70px;
+  }
+  
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  &__item {
+    width: 345px;
+    
+    &:hover .services__icon {
+      fill: $color_white;
+    }
+    
+    &:hover .icon-wrapper {
+      background-color: $color_accent;
+    }
+  }
+  
+  &__icon {
+    width: 53px;
+    height: 40px;
+    text-align: center;
+    fill: $color_accent;
+    transition: all 0.2s linear;
+  }
+  
+  &__heading {
+    color: $color_grey;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  &__description {
+    color: $color_grey;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.icon-wrapper {
+  width: 90px;
+  height: 90px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: 0 auto 29px;
+  border: 2px solid $color_grey-light-icon;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
