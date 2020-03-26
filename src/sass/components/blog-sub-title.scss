@@ -1,9 +1,12 @@
 .blog-sub-title {
-  &__autor {
-    @extend %transition-02s-linear;
-  }
-
+  &__autor,
   &__autor-position {
     @extend %transition-02s-linear;
+    display: inline-block;
+    color: inherit;
+
+    &:hover {
+      color: $color_accent;
+    }
   }
 }

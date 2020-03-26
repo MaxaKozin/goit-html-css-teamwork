@@ -1,0 +1,23 @@
+.date-block {
+  position: absolute;
+  padding: 12px;
+  width: 76px;
+  height: 76px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border: 2px solid $color_grey;
+
+  &__item {
+    
+    &--big {
+      font-size: 24px;
+    }
+
+    &--small {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+}

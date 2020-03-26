@@ -86,13 +86,13 @@
     display: block;
     width: 35px;
     height: 38px;
-    background: url(../../images/icons/icons_other/icon_angle-arrow.svg),
+    background: url(../images/icons/icons_other/icon_angle-arrow.svg),
       rgba($color_grey, 0.2);
     background-repeat: no-repeat;
     background-position: center;
 
     &:hover {
-      background: url(../../images/icons/icons_other/icon_angle-arrow.svg),
+      background: url(../images/icons/icons_other/icon_angle-arrow.svg),
         $color_accent;
       background-repeat: no-repeat;
       background-position: center;
