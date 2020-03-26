@@ -6,15 +6,15 @@
   text-transform: uppercase;
   text-align: center;
   color: $color_grey;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
   padding-top: 100px;
 
   &::after{ 
     display: block;
     content: "";
     background-color: $color_grey;
-    height: 3px;
+    height: 2px;
     width: 50px;
-    margin: 28px auto 0px;
+    margin: 25px auto 0px;
   }
 }
