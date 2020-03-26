@@ -75,16 +75,11 @@
       cursor: pointer;
       padding-left: 22px;
 
-      .svg{
-        height: 38px;
+      .arrow{
+        fill: $color_accent;
+        height: 12px;
+        line-height: 38px;
         width: 38px;
-        float: right;
-    
-        .arrow{
-          fill: $color_accent;
-          height: 12px;
-          width: 8px;
-        }
       }
     }
   }
