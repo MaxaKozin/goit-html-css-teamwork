@@ -10,11 +10,6 @@ html {
   box-sizing: inherit;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .link {
   display: block;
   text-decoration: none;
@@ -51,10 +46,6 @@ input[type='radio'].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.list-item {
-  list-style: none;
 }
 
 img {
