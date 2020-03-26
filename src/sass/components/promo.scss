@@ -1,17 +1,17 @@
 .promo {
   width: 100%;
   min-height: $promo_height;
-  background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(../../images/bg_site/bg-top.jpg);
+  background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(images/bg_site/bg-top.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   
   @media (min-resolution: 192dpi) {
-    background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(../../images/bg_site/bg-top@2x.jpg);
+    background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(images/bg_site/bg-top@2x.jpg);
   }
   
   @media (min-resolution: 288dpi) {
-    background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(../../images/bg_site/bg-top@3x.jpg);
+    background-image: linear-gradient($color_black-opacity, $color_black-opacity), url(images/bg_site/bg-top@3x.jpg);
   }
   
   &__slogan {
