@@ -20,6 +20,8 @@
       border: 1px solid $color_grey;
       width: 350px;
       height: 44px;
+      padding-left: 17px;
+      line-height: 44px;
       margin-bottom: 22px;
 
       &:focus {
@@ -28,7 +30,6 @@
       }
 
       &::placeholder {
-        padding-left: 17px;
         font-family: 'Roboto Slab', serif;
         font-size: 12px;
         line-height: 44px;
@@ -44,9 +45,10 @@
     width: 730px;
     border: 1px solid $color_grey;
     resize: none;
+    padding-left: 17px;
+    line-height: 44px;
 
     &::placeholder {
-      padding-left: 17px;
       font-family: 'Roboto Slab', serif;
       font-size: 12px;
       font-weight: 400;
@@ -79,6 +81,7 @@
     text-align: center;
     line-height: 44px;
     color: $color_grey;
+    cursor: pointer;
     transition: border 200ms linear;
     transition: color 200ms linear;
     transition: background-color 200ms linear;
@@ -94,7 +97,7 @@
     font-family: 'Roboto Slab', serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 44px;
     color: $color_grey;
     padding-left: 40px;
     

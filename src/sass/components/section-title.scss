@@ -1,12 +1,13 @@
 .title{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
   text-align: center;
   color: $color_grey;
   margin-bottom: 26px;
+  padding-top: 100px;
 
   &::after{ 
     display: block;
