@@ -5,7 +5,7 @@
       $color_bg_accent_opacity,
       $color_bg_accent_opacity
     ),
-    url(../../images/bg_site/bg_mid.jpg);
+    url(images/bg_site/bg_mid.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +19,7 @@
         $color_bg_accent_opacity,
         $color_bg_accent_opacity
       ),
-      url(../../images/bg_site/bg_mid@2x.jpg);
+      url(images/bg_site/bg_mid@2x.jpg);
   }
 
   @media (min-resolution: 288dpi) {
@@ -27,7 +27,7 @@
         $color_bg_accent_opacity,
         $color_bg_accent_opacity
       ),
-      url(../../images/bg_site/bg_mid@3x.jpg);
+      url(images/bg_site/bg_mid@3x.jpg);
   }
 
   &__promo {
